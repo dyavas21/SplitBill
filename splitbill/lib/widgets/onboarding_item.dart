@@ -19,8 +19,13 @@ class OnboardingItem extends StatelessWidget {
         SizedBox(
           height: 99,
         ),
-        Image.asset(
-          imageUrl!,
+        Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 24,
+          ),
+          child: Image.asset(
+            imageUrl!,
+          ),
         ),
         SizedBox(
           height: 127,
@@ -30,6 +35,7 @@ class OnboardingItem extends StatelessWidget {
           style: blackTextStyle.copyWith(
             fontSize: 26,
           ),
+          textAlign: TextAlign.center,
         ),
         SizedBox(
           height: 10,

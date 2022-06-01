@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/onboarding': (context) => OnboardingPage(),
+        '/': (context) => OnboardingPage(),
       },
     );
   }

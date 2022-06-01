@@ -22,9 +22,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
               items: [
                 OnboardingItem(
                   imageUrl: 'assets/image_onboarding1.png',
-                  title: 'Buy Furniture Easily',
+                  title: 'Save your time and money',
                   subtitle:
-                      'Aliqua id fugiat nostrud irure ex duis ea\nquis id quis ad et. Sunt qui esse',
+                      'Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse',
                 ),
                 OnboardingItem(
                   imageUrl: 'assets/image_onboarding2.png',
@@ -34,7 +34,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 ),
                 OnboardingItem(
                   imageUrl: 'assets/image_onboarding3.png',
-                  title: 'Best Price',
+                  title: 'Best Easy to share bills with anyone',
                   subtitle:
                       'Aliqua id fugiat nostrud irure ex duis ea\nquis id quis ad et. Sunt qui esse',
                 ),
