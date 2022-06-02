@@ -242,7 +242,7 @@ class _SignInPageState extends State<SignInPage> {
                 gravity: ToastGravity.BOTTOM,
               );
             } else {
-              Navigator.pushNamed(context, '/home');
+              Navigator.pushNamed(context, '/dashboard');
             }
           });
         },

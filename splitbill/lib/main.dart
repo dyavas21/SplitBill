@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:splitbill/page/dashboard_page.dart';
 import 'package:splitbill/page/onboarding_page.dart';
 import 'package:splitbill/page/register_page.dart';
 import 'package:splitbill/page/sign_in_page.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => OnboardingPage(),
         '/sign-in': (context) => SignInPage(),
         '/register': (context) => RegisterPage(),
+        '/dashboard': (context) => DashboardPage(),
       },
     );
   }
