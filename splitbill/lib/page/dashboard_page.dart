@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:splitbill/theme.dart';
 import 'package:splitbill/widget/nearby_friends.dart';
+import 'package:splitbill/widget/recent_activity.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
@@ -287,21 +288,70 @@ class DashboardPage extends StatelessWidget {
                       children: [
                         plusIcom(),
                         NearbyFriends(
-                          imgUrl: 'assets/profile1.png',
+                          imgUrl: 'assets/friend1.png',
                         ),
                         NearbyFriends(
-                          imgUrl: 'assets/profile1.png',
+                          imgUrl: 'assets/friend2.png',
                         ),
                         NearbyFriends(
-                          imgUrl: 'assets/profile1.png',
+                          imgUrl: 'assets/friend3.png',
                         ),
                         NearbyFriends(
-                          imgUrl: 'assets/profile1.png',
+                          imgUrl: 'assets/friend4.png',
                         ),
                       ],
                     )
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 24,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 24,
+                  right: 40,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Recent Activity',
+                      style: GoogleFonts.nunito(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                    Text(
+                      'See all',
+                      style: GoogleFonts.nunito(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w800,
+                        color: Color(0xffB3B3B3),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 11,
+              ),
+              RecentActivity(
+                imgUrl: 'assets/coffee.png',
+                title: 'Coffee',
+                date: '8 Jan, 2022',
+                price: '65.000',
+                person: '4',
+              ),
+              SizedBox(
+                height: 13,
+              ),
+              RecentActivity(
+                imgUrl: 'assets/coffee.png',
+                title: 'Coffee',
+                date: '9 Jan, 2022',
+                price: '87.000',
+                person: '4',
               ),
             ],
           ),
