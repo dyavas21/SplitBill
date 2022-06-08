@@ -353,9 +353,31 @@ class DashboardPage extends StatelessWidget {
                 price: '87.000',
                 person: '4',
               ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.heart_broken),
+            label: 'Love',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'Person',
+          ),
+        ],
+        // currentIndex: _selectedIndex,
+        selectedItemColor: Colors.red,
+        // onTap: _onItemTapped,
       ),
     );
   }
