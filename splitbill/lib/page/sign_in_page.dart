@@ -10,8 +10,8 @@ class SignInPage extends StatefulWidget {
 
 class _SignInPageState extends State<SignInPage> {
   late FToast fToast;
-  final emailController = TextEditingController(text: '');
-  final passwordController = TextEditingController(text: '');
+  final emailController = TextEditingController(text: 'ddd');
+  final passwordController = TextEditingController(text: '123');
 
   bool isShowPasswordError = false;
   bool isRememberMe = false;
