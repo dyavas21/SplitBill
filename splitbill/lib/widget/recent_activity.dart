@@ -20,10 +20,6 @@ class RecentActivity extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 76,
-      margin: EdgeInsets.only(
-        left: 24,
-        right: 24,
-      ),
       padding: EdgeInsets.only(
         top: 12.67,
         left: 14,
